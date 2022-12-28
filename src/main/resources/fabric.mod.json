@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "disableelytra",
+  "version": "${version}",
+
+  "name": "Disable Elytra",
+  "description": "Disables the functionality of the elytra.",
+  "authors": [
+    "MediumDifficulty"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "LGPL-3",
+  "icon": "assets/disableelytra/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "yes.mediumdifficulty.disableelytra.DisableElytra"
+    ]
+  },
+  "mixins": [
+    "disableelytra.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": ">=1.17",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
