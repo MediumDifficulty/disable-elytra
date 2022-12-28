@@ -9,7 +9,8 @@
     "MediumDifficulty"
   ],
   "contact": {
-    "sources": "https://github.com/MediumDifficulty/disable-elytra"
+    "sources": "https://github.com/MediumDifficulty/disable-elytra",
+    "homepage": "https://modrinth.com/mod/disable-elytra"
   },
 
   "license": "LGPL-3",
